@@ -1,0 +1,25 @@
+# --- R específicos ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# --- renv (Gestión de dependencias) ---
+# Ignoramos la librería local de paquetes (como el .venv de Python)
+# No se sube porque es pesada y específica de cada sistema operativo
+renv/library/
+renv/staging/
+renv/cache/
+
+# EXCEPCIONES: Estos archivos de renv SÍ deben estar en Git
+!renv/activate.R
+!renv/settings.json
+
+# --- Datos y Salidas ---
+# Ignora los archivos CSV generados por tu script para mantener el repo limpio
+*.csv
+*.log
+
+# --- Sistema ---
+.DS_Store

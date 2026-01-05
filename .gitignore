@@ -1,0 +1,12 @@
+# IDEs
+.vscode/
+.Rproj.user/
+*.Rproj
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Datos generados (si los guardas en una carpeta común)
+data/
+*.csv
